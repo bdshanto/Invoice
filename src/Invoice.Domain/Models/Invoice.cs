@@ -1,18 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Invoice.Domain.Models
 {
-    public class InvoiceIteDto
+    public class Invoice
     {
         public int Id { get; set; }
-        public string ItemName { get; set; } = "";
-        public decimal Qty { get; set; }
-        public decimal Amount { get; set; }
-        public decimal Total { get; set; }
+        public string CustomerName { get; set; } = "";
+        public string Address { get; set; } = "";
+        public string InvoiceNo { get; set; } = "";
+        public DateTime OperationDate { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime LastModifiedDate { get; set; }
+
+        public ICollection<InvoiceDetail> InvoiceList { get; set; } = new List<InvoiceDetail>();
 
     }
 }
