@@ -4,18 +4,13 @@
 		<TargetFramework>netstandard2.0</TargetFramework> 
 	</PropertyGroup>
 
-	<ItemGroup>
-	  <Compile Remove="DataSets\**" />
-	  <EmbeddedResource Remove="DataSets\**" />
-	  <None Remove="DataSets\**" />
-	</ItemGroup>
-
 
 	<ItemGroup>
     <ProjectReference Include="..\Invoice.Domain\Invoice.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="DataSets\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
