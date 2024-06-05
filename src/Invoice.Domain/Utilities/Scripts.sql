@@ -5,6 +5,7 @@ public class Invoice
         public int Id { get; set; }
         public string CustomerName { get; set; } = "";
         public string Address { get; set; } = "";
+        public strig ContactNumber { get; set; } = "";
         public string InvoiceNo { get; set; } = "";// UNiQ can not be duplicate
         public DateTime OperationDate { get; set; }
         public DateTime CreatedDate { get; set; }
@@ -36,8 +37,9 @@ public class Invoice
 */
 
 CREATE TABLE Invoice (
-	Id INT PRIMARY KEY IDENTITY,
+	Id INT IDENTITY(1,1),
 	CustomerName NVARCHAR(100) NOT NULL,
+	ContactNumber NVARCHAR(100) NOT NULL,
 	[Address] NVARCHAR(100) NOT NULL,
 	InvoiceNo NVARCHAR(100) NOT NULL,
 	OperationDate DATETIME NOT NULL,
@@ -49,7 +51,7 @@ CREATE TABLE Invoice (
 );
 
 create table InvoiceDetail (
-	Id INT PRIMARY KEY IDENTITY,
+Id INT IDENTITY(1,1),
 	ItemName NVARCHAR(100) NOT NULL,
 	Qty DECIMAL(18, 2) NOT NULL,
 	Amount DECIMAL(18, 2) NOT NULL,
@@ -59,7 +61,7 @@ create table InvoiceDetail (
 	CreatedDate DATETIME NOT NULL,
 	LastModifiedDate DATETIME NOT NULL,
 
-	CONSTRAINT FK_InvoiceId FOREIGN KEY (InvoiceId) REFERENCES Invoice(Id),
-	CONSTRAINT PK_Id PRIMARY KEY (Id)
+	CONSTRAINT FK_INVOICE_ID FOREIGN KEY (InvoiceId) REFERENCES Invoice(Id),
+	CONSTRAINT PK_ID PRIMARY KEY (Id)
 );
  

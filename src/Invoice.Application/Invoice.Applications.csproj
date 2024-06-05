@@ -10,8 +10,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataSets\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DataSets\data.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>data.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Reports\VoucherReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
