@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,7 @@ namespace Invoice.Report
         public Form1()
         {
             InitializeComponent();
+            this.reportViewer1.SetPageSettings(new PageSettings { PaperSize = new PaperSize("A4", 827, 1169) });
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -51,6 +53,10 @@ namespace Invoice.Report
             reportViewer1.LocalReport.DataSources.Clear();
             reportViewer1.LocalReport.DataSources.Add(invoiceDataSource);
             reportViewer1.LocalReport.DataSources.Add(invoiceDetailDataSource);
+         
+           
+
+
 
             reportViewer1.RefreshReport();
 

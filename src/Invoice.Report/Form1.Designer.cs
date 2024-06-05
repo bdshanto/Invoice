@@ -1,4 +1,6 @@
-﻿namespace Invoice.Report
+﻿using System.Drawing.Printing;
+
+namespace Invoice.Report
 {
     partial class Form1
     {
@@ -38,6 +40,7 @@
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.Size = new System.Drawing.Size(800, 450);
             this.reportViewer1.TabIndex = 0;
+           
             // 
             // ReportForm
             // 
