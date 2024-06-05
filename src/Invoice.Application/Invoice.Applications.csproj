@@ -1,32 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework> 
+	</PropertyGroup>
 
-  <ItemGroup>
+	<ItemGroup>
+	  <Compile Remove="DataSets\**" />
+	  <EmbeddedResource Remove="DataSets\**" />
+	  <None Remove="DataSets\**" />
+	</ItemGroup>
+
+
+	<ItemGroup>
     <ProjectReference Include="..\Invoice.Domain\Invoice.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="DataSets\InvoiceDataSet.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>InvoiceDataSet.xsd</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="DataSets\InvoiceDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>InvoiceDataSet.Designer.cs</LastGenOutput>
-    </None>
   </ItemGroup>
 
 </Project>
