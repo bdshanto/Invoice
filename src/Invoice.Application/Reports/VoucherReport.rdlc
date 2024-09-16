@@ -17,8 +17,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>ItemName</rd:DefaultName>
-        <Top>1.0048in</Top>
-        <Left>0.95277in</Left>
+        <Top>0.11591in</Top>
+        <Left>0.84027in</Left>
         <Height>0.25in</Height>
         <Width>3.28125in</Width>
         <Style>
@@ -46,8 +46,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Address</rd:DefaultName>
-        <Top>1.31036in</Top>
-        <Left>0.95277in</Left>
+        <Top>0.42147in</Top>
+        <Left>0.82777in</Left>
         <Height>0.25in</Height>
         <Width>6.66431in</Width>
         <ZIndex>1</ZIndex>
@@ -78,10 +78,10 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox6</rd:DefaultName>
-        <Top>1.0048in</Top>
-        <Left>0.15694in</Left>
+        <Top>0.11591in</Top>
+        <Left>0.16944in</Left>
         <Height>0.25in</Height>
-        <Width>0.72639in</Width>
+        <Width>0.57014in</Width>
         <ZIndex>2</ZIndex>
         <Style>
           <Border>
@@ -110,10 +110,10 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox6</rd:DefaultName>
-        <Top>1.32425in</Top>
-        <Left>0.15416in</Left>
+        <Top>0.43536in</Top>
+        <Left>0.16666in</Left>
         <Height>0.25in</Height>
-        <Width>0.72639in</Width>
+        <Width>0.57014in</Width>
         <ZIndex>3</ZIndex>
         <Style>
           <Border>
@@ -142,8 +142,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox6</rd:DefaultName>
-        <Top>1.0048in</Top>
-        <Left>4.30347in</Left>
+        <Top>0.11591in</Top>
+        <Left>4.19097in</Left>
         <Height>0.25in</Height>
         <Width>0.72639in</Width>
         <ZIndex>4</ZIndex>
@@ -174,8 +174,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>ContactNumber</rd:DefaultName>
-        <Top>1.0048in</Top>
-        <Left>5.08541in</Left>
+        <Top>0.11591in</Top>
+        <Left>4.97291in</Left>
         <Height>0.25in</Height>
         <Width>2.53167in</Width>
         <ZIndex>5</ZIndex>
@@ -193,22 +193,22 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>0.31563in</Width>
+              <Width>0.29479in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.18412in</Width>
+              <Width>3.16328in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.0927in</Width>
+              <Width>1.07186in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.79479in</Width>
+              <Width>0.77395in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.03646in</Width>
+              <Width>1.01562in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.03646in</Width>
+              <Width>1.01562in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -318,7 +318,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox16</rd:DefaultName>
@@ -348,7 +350,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox18</rd:DefaultName>
@@ -378,7 +382,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox20</rd:DefaultName>
@@ -503,7 +509,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Qty</rd:DefaultName>
@@ -533,7 +541,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Amount</rd:DefaultName>
@@ -563,7 +573,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Total</rd:DefaultName>
@@ -605,10 +617,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>InvoiceDetailDataSet</DataSetName>
-        <Top>1.89369in</Top>
-        <Left>0.15694in</Left>
+        <Top>1.0048in</Top>
+        <Left>0.16944in</Left>
         <Height>0.5in</Height>
-        <Width>7.46014in</Width>
+        <Width>7.33514in</Width>
         <ZIndex>6</ZIndex>
         <Style>
           <Border>
@@ -616,132 +628,6 @@
           </Border>
         </Style>
       </Tablix>
-      <Textbox Name="InvoiceNo">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=First(Fields!InvoiceNo.Value, "InvoiceDataSet")</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Left</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>InvoiceNo</rd:DefaultName>
-        <Top>0.375in</Top>
-        <Left>6.65807in</Left>
-        <Height>0.25in</Height>
-        <Width>0.95902in</Width>
-        <ZIndex>7</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="OperationDate">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=First(Fields!OperationDate.Value, "InvoiceDataSet")</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Left</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>OperationDate</rd:DefaultName>
-        <Top>0.66667in</Top>
-        <Left>6.65807in</Left>
-        <Height>0.25in</Height>
-        <Width>0.95902in</Width>
-        <ZIndex>8</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox6">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Invoice No:</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox6</rd:DefaultName>
-        <Top>0.375in</Top>
-        <Left>5.89001in</Left>
-        <Height>0.25in</Height>
-        <Width>0.72639in</Width>
-        <ZIndex>9</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox7">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Date:</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Right</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox6</rd:DefaultName>
-        <Top>0.66944in</Top>
-        <Left>5.89001in</Left>
-        <Height>0.25in</Height>
-        <Width>0.72639in</Width>
-        <ZIndex>10</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
       <Textbox Name="Textbox40">
         <CanGrow>true</CanGrow>
         <KeepTogether>true</KeepTogether>
@@ -759,10 +645,10 @@
         </Paragraphs>
         <rd:DefaultName>Textbox40</rd:DefaultName>
         <Top>3.96875in</Top>
-        <Left>6.74984in</Left>
+        <Left>6.45459in</Left>
         <Height>0.25in</Height>
         <Width>1in</Width>
-        <ZIndex>11</ZIndex>
+        <ZIndex>7</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -781,7 +667,7 @@
       </Border>
     </Style>
   </Body>
-  <Width>8.00764in</Width>
+  <Width>8.14305in</Width>
   <Page>
     <PageHeader>
       <Height>1.1014in</Height>
@@ -797,6 +683,7 @@
                 <TextRun>
                   <Value>ANIK ELECTRIC</Value>
                   <Style>
+                    <FontFamily>times New Roman</FontFamily>
                     <FontSize>18pt</FontSize>
                   </Style>
                 </TextRun>
@@ -807,8 +694,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox2</rd:DefaultName>
-          <Top>0.02014in</Top>
-          <Left>1.42751in</Left>
+          <Top>0.125in</Top>
+          <Left>2.22334in</Left>
           <Height>0.33333in</Height>
           <Width>2.46875in</Width>
           <Style>
@@ -832,7 +719,6 @@
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontFamily>Times New Roman</FontFamily>
-                    <FontSize>12pt</FontSize>
                     <FontWeight>Normal</FontWeight>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
@@ -846,7 +732,7 @@
           </Paragraphs>
           <rd:DefaultName>Textbox31</rd:DefaultName>
           <Top>0.39514in</Top>
-          <Left>0.83792in</Left>
+          <Left>1.63375in</Left>
           <Height>0.25in</Height>
           <Width>3.85417in</Width>
           <ZIndex>1</ZIndex>
@@ -871,7 +757,6 @@
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontFamily>Times New Roman</FontFamily>
-                    <FontSize>12pt</FontSize>
                     <FontWeight>Normal</FontWeight>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
@@ -885,7 +770,7 @@
           </Paragraphs>
           <rd:DefaultName>Textbox31</rd:DefaultName>
           <Top>0.6014in</Top>
-          <Left>0.83792in</Left>
+          <Left>1.63375in</Left>
           <Height>0.25in</Height>
           <Width>3.85417in</Width>
           <ZIndex>2</ZIndex>
@@ -910,7 +795,6 @@
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontFamily>Times New Roman</FontFamily>
-                    <FontSize>12pt</FontSize>
                     <FontWeight>Normal</FontWeight>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
@@ -924,7 +808,7 @@
           </Paragraphs>
           <rd:DefaultName>Textbox31</rd:DefaultName>
           <Top>0.8514in</Top>
-          <Left>0.83792in</Left>
+          <Left>1.63375in</Left>
           <Height>0.25in</Height>
           <Width>3.85417in</Width>
           <ZIndex>3</ZIndex>
@@ -938,7 +822,7 @@
             <PaddingBottom>2pt</PaddingBottom>
           </Style>
         </Textbox>
-        <Textbox Name="InvoiceNo2">
+        <Textbox Name="InvoiceNo">
           <CanGrow>true</CanGrow>
           <KeepTogether>true</KeepTogether>
           <Paragraphs>
@@ -955,10 +839,10 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>InvoiceNo</rd:DefaultName>
-          <Top>0.39514in</Top>
-          <Left>5.89001in</Left>
+          <Top>0.30973in</Top>
+          <Left>6.53306in</Left>
           <Height>0.25in</Height>
-          <Width>1.72707in</Width>
+          <Width>0.95902in</Width>
           <ZIndex>4</ZIndex>
           <Style>
             <Border>
@@ -970,7 +854,7 @@
             <PaddingBottom>2pt</PaddingBottom>
           </Style>
         </Textbox>
-        <Textbox Name="OperationDate2">
+        <Textbox Name="OperationDate">
           <CanGrow>true</CanGrow>
           <KeepTogether>true</KeepTogether>
           <Paragraphs>
@@ -987,10 +871,10 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>OperationDate</rd:DefaultName>
-          <Top>0.68681in</Top>
-          <Left>5.89001in</Left>
+          <Top>0.6014in</Top>
+          <Left>6.53306in</Left>
           <Height>0.25in</Height>
-          <Width>1.72707in</Width>
+          <Width>0.95902in</Width>
           <ZIndex>5</ZIndex>
           <Style>
             <Border>
@@ -1002,7 +886,7 @@
             <PaddingBottom>2pt</PaddingBottom>
           </Style>
         </Textbox>
-        <Textbox Name="Textbox11">
+        <Textbox Name="Textbox6">
           <CanGrow>true</CanGrow>
           <KeepTogether>true</KeepTogether>
           <Paragraphs>
@@ -1017,8 +901,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>0.39514in</Top>
-          <Left>5.12195in</Left>
+          <Top>0.30973in</Top>
+          <Left>5.765in</Left>
           <Height>0.25in</Height>
           <Width>0.72639in</Width>
           <ZIndex>6</ZIndex>
@@ -1032,7 +916,7 @@
             <PaddingBottom>2pt</PaddingBottom>
           </Style>
         </Textbox>
-        <Textbox Name="Textbox13">
+        <Textbox Name="Textbox7">
           <CanGrow>true</CanGrow>
           <KeepTogether>true</KeepTogether>
           <Paragraphs>
@@ -1049,8 +933,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>0.68958in</Top>
-          <Left>5.12195in</Left>
+          <Top>0.60417in</Top>
+          <Left>5.765in</Left>
           <Height>0.25in</Height>
           <Width>0.72639in</Width>
           <ZIndex>7</ZIndex>
@@ -1100,10 +984,10 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox31</rd:DefaultName>
-          <Top>0.47725in</Top>
-          <Left>0.125in</Left>
+          <Top>0.34183in</Top>
+          <Left>0.16666in</Left>
           <Height>0.25in</Height>
-          <Width>6.57292in</Width>
+          <Width>7.64306in</Width>
           <Style>
             <Border>
               <Style>None</Style>
