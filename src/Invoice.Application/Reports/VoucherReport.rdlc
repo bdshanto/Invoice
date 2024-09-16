@@ -46,10 +46,10 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Address</rd:DefaultName>
-        <Top>0.42147in</Top>
+        <Top>0.43536in</Top>
         <Left>0.82777in</Left>
         <Height>0.25in</Height>
-        <Width>6.66431in</Width>
+        <Width>6.98195in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -110,7 +110,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox6</rd:DefaultName>
-        <Top>0.43536in</Top>
+        <Top>0.4293in</Top>
         <Left>0.16666in</Left>
         <Height>0.25in</Height>
         <Width>0.57014in</Width>
@@ -174,10 +174,10 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>ContactNumber</rd:DefaultName>
-        <Top>0.11591in</Top>
+        <Top>0.12197in</Top>
         <Left>4.97291in</Left>
         <Height>0.25in</Height>
-        <Width>2.53167in</Width>
+        <Width>2.83681in</Width>
         <ZIndex>5</ZIndex>
         <Style>
           <Border>
@@ -193,22 +193,22 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>0.29479in</Width>
+              <Width>0.34565in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.16328in</Width>
+              <Width>3.97382in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.07186in</Width>
+              <Width>0.98948in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.77395in</Width>
+              <Width>0.57056in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.01562in</Width>
+              <Width>0.90019in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.01562in</Width>
+              <Width>0.86057in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -225,7 +225,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>SL.</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -255,7 +258,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Item Name</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -285,7 +291,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Warranty (days)</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -315,7 +324,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Qty</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -347,7 +359,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Amount</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -379,7 +394,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Total</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -416,7 +434,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Sl.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -446,7 +466,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!ItemName.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -476,7 +498,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Warranty.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -506,7 +530,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Qty.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -538,7 +564,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Amount.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -570,7 +598,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Total.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>times New Roman</FontFamily>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -620,7 +650,7 @@
         <Top>1.0048in</Top>
         <Left>0.16944in</Left>
         <Height>0.5in</Height>
-        <Width>7.33514in</Width>
+        <Width>7.64028in</Width>
         <ZIndex>6</ZIndex>
         <Style>
           <Border>
@@ -842,7 +872,7 @@
           <Top>0.30973in</Top>
           <Left>6.53306in</Left>
           <Height>0.25in</Height>
-          <Width>0.95902in</Width>
+          <Width>1.27666in</Width>
           <ZIndex>4</ZIndex>
           <Style>
             <Border>
@@ -871,10 +901,10 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>OperationDate</rd:DefaultName>
-          <Top>0.6014in</Top>
+          <Top>0.60746in</Top>
           <Left>6.53306in</Left>
           <Height>0.25in</Height>
-          <Width>0.95902in</Width>
+          <Width>1.27666in</Width>
           <ZIndex>5</ZIndex>
           <Style>
             <Border>
