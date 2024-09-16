@@ -17,7 +17,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>ItemName</rd:DefaultName>
-        <Top>1.2548in</Top>
+        <Top>1.0048in</Top>
         <Left>0.95277in</Left>
         <Height>0.25in</Height>
         <Width>3.28125in</Width>
@@ -46,10 +46,10 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Address</rd:DefaultName>
-        <Top>1.56036in</Top>
+        <Top>1.31036in</Top>
         <Left>0.95277in</Left>
         <Height>0.25in</Height>
-        <Width>6.79708in</Width>
+        <Width>6.66431in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -78,7 +78,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox6</rd:DefaultName>
-        <Top>1.2548in</Top>
+        <Top>1.0048in</Top>
         <Left>0.15694in</Left>
         <Height>0.25in</Height>
         <Width>0.72639in</Width>
@@ -110,7 +110,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox6</rd:DefaultName>
-        <Top>1.57425in</Top>
+        <Top>1.32425in</Top>
         <Left>0.15416in</Left>
         <Height>0.25in</Height>
         <Width>0.72639in</Width>
@@ -142,7 +142,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox6</rd:DefaultName>
-        <Top>1.2548in</Top>
+        <Top>1.0048in</Top>
         <Left>4.30347in</Left>
         <Height>0.25in</Height>
         <Width>0.72639in</Width>
@@ -174,10 +174,10 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>ContactNumber</rd:DefaultName>
-        <Top>1.2548in</Top>
+        <Top>1.0048in</Top>
         <Left>5.08541in</Left>
         <Height>0.25in</Height>
-        <Width>2.66444in</Width>
+        <Width>2.53167in</Width>
         <ZIndex>5</ZIndex>
         <Style>
           <Border>
@@ -193,22 +193,22 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>0.29653in</Width>
+              <Width>0.31563in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.41236in</Width>
+              <Width>3.18412in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.0736in</Width>
+              <Width>1.0927in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.77569in</Width>
+              <Width>0.79479in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.01736in</Width>
+              <Width>1.03646in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.01736in</Width>
+              <Width>1.03646in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -608,7 +608,7 @@
         <Top>1.89369in</Top>
         <Left>0.15694in</Left>
         <Height>0.5in</Height>
-        <Width>7.59291in</Width>
+        <Width>7.46014in</Width>
         <ZIndex>6</ZIndex>
         <Style>
           <Border>
@@ -616,156 +616,6 @@
           </Border>
         </Style>
       </Tablix>
-      <Textbox Name="Textbox2">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>ANIK ELECTRIC1</Value>
-                <Style>
-                  <FontSize>18pt</FontSize>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Center</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox2</rd:DefaultName>
-        <Left>2.19557in</Left>
-        <Height>0.33333in</Height>
-        <Width>2.46875in</Width>
-        <ZIndex>7</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox31">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>315, Bhuiyan Market (Near Mondol Fabrics Ltd.) </Value>
-                <Style>
-                  <FontStyle>Normal</FontStyle>
-                  <FontFamily>Times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Normal</FontWeight>
-                  <TextDecoration>None</TextDecoration>
-                  <Color>#000000</Color>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Center</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox31</rd:DefaultName>
-        <Top>0.375in</Top>
-        <Left>1.60598in</Left>
-        <Height>0.25in</Height>
-        <Width>3.85417in</Width>
-        <ZIndex>8</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox32">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Kashimpur-Nayapara, Gazipur - 1746</Value>
-                <Style>
-                  <FontStyle>Normal</FontStyle>
-                  <FontFamily>Times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Normal</FontWeight>
-                  <TextDecoration>None</TextDecoration>
-                  <Color>#000000</Color>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Center</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox31</rd:DefaultName>
-        <Top>0.58126in</Top>
-        <Left>1.60598in</Left>
-        <Height>0.25in</Height>
-        <Width>3.85417in</Width>
-        <ZIndex>9</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox33">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Contact: 01903-169898</Value>
-                <Style>
-                  <FontStyle>Normal</FontStyle>
-                  <FontFamily>Times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Normal</FontWeight>
-                  <TextDecoration>None</TextDecoration>
-                  <Color>#000000</Color>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Center</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox31</rd:DefaultName>
-        <Top>0.83126in</Top>
-        <Left>1.60598in</Left>
-        <Height>0.25in</Height>
-        <Width>3.85417in</Width>
-        <ZIndex>10</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
       <Textbox Name="InvoiceNo">
         <CanGrow>true</CanGrow>
         <KeepTogether>true</KeepTogether>
@@ -786,8 +636,8 @@
         <Top>0.375in</Top>
         <Left>6.65807in</Left>
         <Height>0.25in</Height>
-        <Width>1.09179in</Width>
-        <ZIndex>11</ZIndex>
+        <Width>0.95902in</Width>
+        <ZIndex>7</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -818,8 +668,8 @@
         <Top>0.66667in</Top>
         <Left>6.65807in</Left>
         <Height>0.25in</Height>
-        <Width>1.09179in</Width>
-        <ZIndex>12</ZIndex>
+        <Width>0.95902in</Width>
+        <ZIndex>8</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -849,7 +699,7 @@
         <Left>5.89001in</Left>
         <Height>0.25in</Height>
         <Width>0.72639in</Width>
-        <ZIndex>13</ZIndex>
+        <ZIndex>9</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -881,7 +731,7 @@
         <Left>5.89001in</Left>
         <Height>0.25in</Height>
         <Width>0.72639in</Width>
-        <ZIndex>14</ZIndex>
+        <ZIndex>10</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -908,11 +758,11 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox40</rd:DefaultName>
-        <Top>3.98264in</Top>
-        <Left>7.12222in</Left>
+        <Top>3.96875in</Top>
+        <Left>6.74984in</Left>
         <Height>0.25in</Height>
         <Width>1in</Width>
-        <ZIndex>15</ZIndex>
+        <ZIndex>11</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -924,14 +774,14 @@
         </Style>
       </Textbox>
     </ReportItems>
-    <Height>4.23264in</Height>
+    <Height>4.34722in</Height>
     <Style>
       <Border>
         <Style>None</Style>
       </Border>
     </Style>
   </Body>
-  <Width>8.25in</Width>
+  <Width>8.00764in</Width>
   <Page>
     <PageHeader>
       <Height>1.1014in</Height>
@@ -1108,7 +958,7 @@
           <Top>0.39514in</Top>
           <Left>5.89001in</Left>
           <Height>0.25in</Height>
-          <Width>1.52208in</Width>
+          <Width>1.72707in</Width>
           <ZIndex>4</ZIndex>
           <Style>
             <Border>
@@ -1140,7 +990,7 @@
           <Top>0.68681in</Top>
           <Left>5.89001in</Left>
           <Height>0.25in</Height>
-          <Width>1.52208in</Width>
+          <Width>1.72707in</Width>
           <ZIndex>5</ZIndex>
           <Style>
             <Border>
@@ -1271,6 +1121,8 @@
         </Border>
       </Style>
     </PageFooter>
+    <PageHeight>11.69in</PageHeight>
+    <PageWidth>8.27in</PageWidth>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>0.3in</RightMargin>
     <TopMargin>0.3in</TopMargin>
